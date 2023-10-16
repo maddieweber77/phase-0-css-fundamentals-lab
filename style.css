@@ -3,3 +3,48 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+nav > a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: plum;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+figcaption {
+  font-size: smaller;
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#details {
+  display: flex;
+  flex-direction: row;
+}
+
+.detail-item {
+  float: left;
+  margin-right: 10px;
+  background-color: #f0f0f0; /* Replace with your desired background color */
+  text-align: center;
+  width: 25%;
+  display: inline-block;
+}
